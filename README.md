@@ -41,12 +41,40 @@ This project demonstrates the integration of:
 ## 🏗️ Folder Structure
 
 MCA-Insight-Engine/
-│
-├── data/ # Raw and cleaned datasets
-├── notebooks/ # Colab notebooks for preprocessing and analysis
-├── app.py # Streamlit app file
-├── requirements.txt # Dependencies
-└── README.md # Project documentation 
+├── Data/
+│   ├── Folder1/
+│   │   ├── file1
+│   │   ├── file2
+│   │   └── ...
+│   ├── Folder2/
+│   │   ├── file1
+│   │   ├── file2
+│   │   └── ...
+│   ├── Folder3/
+│   │   ├── file1
+│   │   ├── file2
+│   │   └── ...
+│   ├── Folder4/
+│   │   ├── file1
+│   │   ├── file2
+│   │   └── ...
+│   ├── Folder5/
+│   │   ├── file1
+│   │   ├── file2
+│   │   └── ...
+│   └── Folder6/
+│       ├── file1
+│       ├── file2
+│       └── ...
+├── Video/
+│   ├── file1
+│   ├── file2
+│   └── ...
+├── Scripts/
+│   ├── file1
+│   ├── file2
+│   └── ...
+└── README.md
 
 ---
 
