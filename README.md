@@ -39,7 +39,7 @@ This project demonstrates the integration of:
 ---
 
 ## 🏗️ Folder Structure
-
+```bash
 MCA-Insight-Engine/
 ├── Data/
 │   ├── Change logs/
@@ -75,7 +75,7 @@ MCA-Insight-Engine/
 │   ├── file2
 │   └── ...
 └── README.md
-
+   ```
 ---
 
 ## 🚀 How to Run
