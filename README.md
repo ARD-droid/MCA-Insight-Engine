@@ -32,7 +32,7 @@ This project demonstrates the integration of:
 |------------|-------------|
 | **Frontend** | Streamlit |
 | **Backend** | Python |
-| **AI/LLM** | Google Gemini (via `langchain_google_genai`) |
+| **AI/LLM** | Google Gemini (via langchain_google_genai) |
 | **Data Handling** | Pandas, NumPy |
 | **Version Control** | Git & GitHub |
 
