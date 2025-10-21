@@ -42,27 +42,27 @@ This project demonstrates the integration of:
 
 MCA-Insight-Engine/
 ├── Data/
-│   ├── Folder1/
+│   ├── Change logs/
 │   │   ├── file1
 │   │   ├── file2
 │   │   └── ...
-│   ├── Folder2/
+│   ├── Cleaned Data/
 │   │   ├── file1
 │   │   ├── file2
 │   │   └── ...
-│   ├── Folder3/
+│   ├── Enriched/
 │   │   ├── file1
 │   │   ├── file2
 │   │   └── ...
-│   ├── Folder4/
+│   ├── Master Data/
 │   │   ├── file1
 │   │   ├── file2
 │   │   └── ...
-│   ├── Folder5/
+│   ├── Simulated Snapshots/
 │   │   ├── file1
 │   │   ├── file2
 │   │   └── ...
-│   └── Folder6/
+│   └── raw/
 │       ├── file1
 │       ├── file2
 │       └── ...
