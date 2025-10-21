@@ -41,41 +41,47 @@ This project demonstrates the integration of:
 ## 🏗️ Folder Structure
 ```bash
 MCA-Insight-Engine/
-├── Data/
-│   ├── Change logs/
-│   │   ├── file1
-│   │   ├── file2
-│   │  
-│   ├── Cleaned Data/
-│   │   ├── file1
-│   │   ├── file2
-│   │   └── 
-│   ├── Enriched/
-│   │   ├── file1
-│   │   ├── file2
-│   │   └── ...
-│   ├── Master Data/
-│   │   ├── file1
-│   │   ├── file2
-│   │   └── ...
-│   ├── Simulated Snapshots/
-│   │   ├── file1
-│   │   ├── file2
-│   │   └── ...
-│   └── raw/
-│       ├── file1
-│       ├── file2
-│       └── ...
-├── Video/
-│   ├── file1
-│   ├── file2
-│   └── ...
-├── Scripts/
-│   ├── file1
-│   ├── file2
-│   └── ...
+├── Data
+│   ├── Change logs
+│   │   ├── Day2_changes.csv
+│   │   ├── Day3_changes.csv
+│   │   └── README.md
+│   ├── Cleaned Data
+│   │   ├── Data_Gov_Delhi_clean.csv
+│   │   ├── Data_Gov_Gujarat_clean.csv
+│   │   ├── Data_Gov_Karnataka_clean.csv
+│   │   ├── Data_Gov_Maharashtra_clean.csv
+│   │   ├── Data_Gov_Tamil_Nadu_clean.csv
+│   │   └── README.md
+│   ├── Enriched
+│   │   ├── enriched_sample.csv
+│   │   └── README.md
+│   ├── Master Data
+│   │   └── Master_Company_Data.csv
+│   ├── raw
+│   │   ├── Data_Gov_Delhi.csv
+│   │   ├── Data_Gov_Gujarat.csv
+│   │   ├── Data_Gov_Karnataka.csv
+│   │   ├── Data_Gov_Maharashtra.csv
+│   │   ├── Data_Gov_Tamil_Nadu.csv
+│   │   └── README.md
+│   └── Simulated Snapshots
+│       ├── day1_master.csv
+│       ├── day2_master.csv
+│       ├── day3_master.csv
+│       └── README.md
+├── scripts
+│   ├── change_detection.ipynb
+│   ├── enrich_change_logs.ipynb
+│   ├── MCA_Dashboard_py.ipynb
+│   ├── MCA_Master_Data_Preparation.ipynb
+│   ├── README.md
+│   └── Simulate_Daily_Data.ipynb
+├── Video
+│   ├── README.md
+│   └── Streamlit - Google Chrome 2025-10-21 22-05-29.mp4
 └── README.md
-   ```
+```
 ---
 
 ## 🚀 How to Run
@@ -116,7 +122,7 @@ Try asking the MCA Assistant:
 🤔 “What does CIN mean?”
 
 ## 👨‍💻 Author
-Abhay Raj Dixit
+## Abhay Raj Dixit
 - Data Science Enthusiast | AI Developer
 - 📧 dixitabhayraj2603@gmail.com
 - 🔗 GitHub: https://github.com/ARD-droid
