@@ -40,3 +40,55 @@ This project demonstrates the integration of:
 
 ## 🏗️ Folder Structure
 
+MCA-Insight-Engine/
+│
+├── data/ # Raw and cleaned datasets
+├── notebooks/ # Colab notebooks for preprocessing and analysis
+├── app.py # Streamlit app file
+├── requirements.txt # Dependencies
+└── README.md # Project documentation 
+
+---
+
+## 🚀 How to Run
+
+1️⃣ **Clone the Repository**
+   ```bash
+   git clone https://github.com/<ARD-droid>/MCA-Insight-Engine.git
+   cd MCA-Insight-Engine
+   ```
+
+2️⃣  Install Dependencies
+
+ ```bash
+!pip install streamlit pyngrok google-generativeai pandas altair langchain langchain-openai langchain-google-genai 
+ ```
+3️⃣ Add your API Key
+
+ ```bash
+genai.configure(api_key="YOUR_GOOGLE_GEMINI_API_KEY")
+ ```
+4️⃣ Run your dashboard
+
+```bash
+!streamlit run /content/MCA-Insight-Engine/scripts/MCA-Dashboard.py --server.port 8501 & npx localtunnel --port 8501
+ ```
+## 💬 Example Questions for Chatbot
+
+Try asking the MCA Assistant:
+
+🏢 “How many new companies were registered?”
+
+📅 “Show active companies only.”
+
+📊 “Give a summary of registration by status.”
+
+💼 “List some sample company names.”
+
+🤔 “What does CIN mean?”
+
+## 👨‍💻 Author
+Abhay Raj Dixit
+- Data Science Enthusiast | AI Developer
+- 📧 dixitabhayraj2603@gmail.com
+- 🔗 GitHub: https://github.com/ARD-droid
