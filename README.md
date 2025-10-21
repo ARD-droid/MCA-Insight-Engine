@@ -1,35 +1,42 @@
-# 📊 MCA Insights Dashboard
+# 🚀 MCA Insights Engine
 
-A **Streamlit-based interactive dashboard** to explore MCA (Ministry of Corporate Affairs) company data with enriched insights, daily change logs, and an AI assistant powered by **Google Gemini** for asking queries about the dataset.  
+### 🧠 AI-Powered Assistant for Ministry Of Coperative Affairs Company Data Analysis
 
----
-
-## 🌟 Features
-
-- Search companies by **CIN** or **Company Name**  
-- Filter companies by **Status**  
-- Explore **daily change logs** (New Incorporation, Deregistered, Field Updates)  
-- Visualize changes over time with **interactive charts**  
-- **AI Chatbot**: Ask questions about the dataset and get concise responses  
+The **MCA Insights Engine** is an AI-driven tool that helps users interact with and analyze Ministry of Corporate Affairs (MCA) company data effortlessly.  
+It combines **data cleaning, merging, and interactive AI-based querying** using **Google Gemini** and **LangChain** to deliver intelligent insights.
 
 ---
 
-## 📂 Folder Structure
+## 📂 Project Overview
 
-MCA-Insight-Engine/
-├── Data/
-│ ├── Enriched/ # Enriched master CSV
-│ └── Change logs/ # Daily change log CSVs
-├── scripts/
-│ └── MCA-Dashboard.py
-├── README.md
+This project demonstrates the integration of:
+- Data preprocessing using **Pandas** and **NumPy**
+- AI-powered chatbot responses using **Google Gemini API**
+- Streamlit-based user interface for seamless interaction
 
 ---
 
-## 🚀 Installation
+## ⚙️ Features
 
-1. Clone the repository:
+✅ Clean and merge MCA datasets  
+✅ Query company information using natural language  
+✅ Gemini-powered intelligent responses  
+✅ LangChain integration for structured prompt pipelines  
+✅ Interactive Streamlit web app  
 
-```bash
-git clone <your-repo-url>
-cd MCA-Insight-Engine
+---
+
+## 🧩 Tech Stack
+
+| Component | Technology |
+|------------|-------------|
+| **Frontend** | Streamlit |
+| **Backend** | Python |
+| **AI/LLM** | Google Gemini (via `langchain_google_genai`) |
+| **Data Handling** | Pandas, NumPy |
+| **Version Control** | Git & GitHub |
+
+---
+
+## 🏗️ Folder Structure
+
