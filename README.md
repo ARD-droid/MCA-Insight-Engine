@@ -45,11 +45,11 @@ MCA-Insight-Engine/
 │   ├── Change logs/
 │   │   ├── file1
 │   │   ├── file2
-│   │   └── ...
+│   │  
 │   ├── Cleaned Data/
 │   │   ├── file1
 │   │   ├── file2
-│   │   └── ...
+│   │   └── 
 │   ├── Enriched/
 │   │   ├── file1
 │   │   ├── file2
